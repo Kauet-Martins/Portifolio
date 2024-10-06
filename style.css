@@ -384,6 +384,7 @@ nav ul li a:hover{
     justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
+    transition: border-bottom 0.3s ease;
 }
 
 .box_decoration img{
@@ -445,7 +446,15 @@ nav ul li a:hover{
     font-size: 72px;
     font-weight: bold;
     color: #4f4f4f;
+    transition: color 0.3s ease;
     
+}
+
+.number:hover{
+
+    color:#27ae60
+    
+
 }
 
 .text{
@@ -538,7 +547,7 @@ button{
     font-size: 14px;
     color: #fff;
     cursor: pointer;
-    transition: border-bottom 0.3s ease;
+    transition: background-color 0.3s ease;
 
 }
 
